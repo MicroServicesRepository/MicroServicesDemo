@@ -26,6 +26,4 @@ public class RestHelloWorld {
     NameID showMessage(@RequestParam(value = "name", required = true) String name) {
         return new NameID(counter.incrementAndGet(), name);
     }
-    
-    
 }
